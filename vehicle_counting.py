@@ -21,6 +21,6 @@ width = 480 # change it with your input video width
 height = 360 # change it with your input vide height
 is_color_recognition_enabled = 0 # set it to 1 for enabling the color prediction for the detected objects
 roi = 380 # roi line position
-deviation = 1.8 # the constant that represents the object counting area
+deviation = 1.4 # the constant that represents the object counting area
 
 object_counting_api.cumulative_object_counting_x_axis(input_video, detection_graph, category_index, is_color_recognition_enabled, fps, width, height, roi, deviation) # counting all the objects
