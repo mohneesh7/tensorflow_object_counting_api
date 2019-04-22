@@ -23,4 +23,4 @@ is_color_recognition_enabled = 0 # set it to 1 for enabling the color prediction
 roi = -200 # roi line position
 deviation = 3 # the constant that represents the object counting area
 
-object_counting_api.cumulative_object_counting_y_axis(input_video, detection_graph, category_index, is_color_recognition_enabled, fps, width, height, roi, deviation) # counting all the objects
+object_counting_api.cumulative_object_counting_x_axis(input_video, detection_graph, category_index, is_color_recognition_enabled, fps, width, height, roi, deviation) # counting all the objects
