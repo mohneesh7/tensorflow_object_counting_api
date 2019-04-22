@@ -96,7 +96,7 @@ def cumulative_object_counting_x_axis(input_video, detection_graph, category_ind
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 cv2.putText(
                     input_frame,
-                    'Detected Pedestrians: ' + str(total_passed_vehicle),
+                    'Trips: ' + str(total_passed_vehicle),
                     (10, 35),
                     font,
                     0.8,
